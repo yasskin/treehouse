@@ -5,7 +5,6 @@ Code Samples
 def create_list
   print "What is the list name? "
   name = gets.chomp
-
   hash = { "name" => name, "items" => Array.new }
   return hash
 end
@@ -32,19 +31,22 @@ hash.length
 hash.shift - removes value and returns it as key/value pair
 hash.inspect
 
-
-Create an array:
+Create an array with dot notation:
 
 array = Array.new
+
 Create an array with three items:
 
 array = Array.new(3, "Jason")
+
 Create an empty array with bracket notation:
 
 array = []
+
 Create an array using brackets with three items:
 
 array = ["milk", "eggs", "bread"]
+
 Create an array using the %w notation which contains three strings:
 
 array = %w(milk eggs bread)
@@ -60,7 +62,6 @@ grocery_list += ["ice cream", "pie"]
 grocery_list << 1
 
 puts grocery_list.inspect
-
 
 def create_list
   print "What is the list name? "
@@ -106,4 +107,4 @@ list['items'].push(add_list_item())
 list['items'].push(add_list_item())
 
 puts "Here's your list:\n"
-print_list(list)    
+print_list(list)

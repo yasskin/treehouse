@@ -21,9 +21,6 @@ def greet(name)
   puts "Hi #{name}!"
 end
 
-
-
-
 print "Enter name: "
 name = gets.chomp
 

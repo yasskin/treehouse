@@ -4,7 +4,6 @@ Code Samples
 
 Contact List
 
-
 def ask(question, kind="string")
   print question + " "
   answer = gets.chomp
@@ -24,7 +23,6 @@ def add_contact
     end
   end
 end
-
 
 contact_list = []
 
@@ -82,7 +80,6 @@ business.each_value do |value|
   puts "Value: #{value}"
 end
 
-
 Example simple until loop:
 
 answer = ""
@@ -121,6 +118,7 @@ while answer != "n"
   print "Do you want me to repeat this pointless loop again? (y/n) "
   answer = gets.chomp.downcase
 end
+
 Example while loop with exit conditional as a number:
 
 def print_hello(number_of_times)

@@ -2,7 +2,6 @@ Think of a class as a blueprint
 
 The to_s methods
 
-
 name = String.new("Jason")
 
 .new initializes a new instance of the String class.
@@ -36,7 +35,6 @@ puts name.title + " " +
 def title=(new_title)
   @title= new_title
 end
-
 
 class BankAccount
   attr_reader :name

@@ -71,7 +71,6 @@ end
 my_new_drink = my_fave_drink.join()
 
 
-
 //Take a range of numbers and multiply them together.
 numbers = (1..5)
 product = 1
@@ -79,7 +78,6 @@ numbers.each() do |number|
     product = product.*(number)
   end
 product
-
 
 friends = ["Terry", "David", "Ben"]
 friends.each() do |friend|
