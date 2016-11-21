@@ -2,101 +2,24 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="6ad25ad9-d7e3-4e21-9d2e-dca6b86da081" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/javascript_track/express.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/javascript_track/npm_basics.js" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/ajax/AJAX_Basics_Project_Files/stage1/video3/css/main.css" afterPath="$PROJECT_DIR$/javascript_track/ajax/AJAX_Basics_Project_Files/stage1/video3/css/main.css" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/ajax/AJAX_Basics_Project_Files/stage1/video3/example1.html" afterPath="$PROJECT_DIR$/javascript_track/ajax/AJAX_Basics_Project_Files/stage1/video3/example1.html" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/ajax/AJAX_Basics_Project_Files/stage1/video3/example2.html" afterPath="$PROJECT_DIR$/javascript_track/ajax/AJAX_Basics_Project_Files/stage1/video3/example2.html" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/ajax/AJAX_Basics_Project_Files/stage1/video3/index.html" afterPath="$PROJECT_DIR$/javascript_track/ajax/AJAX_Basics_Project_Files/stage1/video3/index.html" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/ajax/AJAX_Basics_Project_Files/stage1/video3/sidebar.html" afterPath="$PROJECT_DIR$/javascript_track/ajax/AJAX_Basics_Project_Files/stage1/video3/sidebar.html" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/ajax/AJAX_Basics_Project_Files/stage2/video4/__finished__/css/main.css" afterPath="$PROJECT_DIR$/javascript_track/ajax/AJAX_Basics_Project_Files/stage2/video4/__finished__/css/main.css" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/ajax/AJAX_Basics_Project_Files/stage2/video4/__finished__/data/employees.json" afterPath="$PROJECT_DIR$/javascript_track/ajax/AJAX_Basics_Project_Files/stage2/video4/__finished__/data/employees.json" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/ajax/AJAX_Basics_Project_Files/stage2/video4/__finished__/index.html" afterPath="$PROJECT_DIR$/javascript_track/ajax/AJAX_Basics_Project_Files/stage2/video4/__finished__/index.html" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/ajax/AJAX_Basics_Project_Files/stage2/video4/__finished__/js/widget.js" afterPath="$PROJECT_DIR$/javascript_track/ajax/AJAX_Basics_Project_Files/stage2/video4/__finished__/js/widget.js" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/ajax/AJAX_Basics_Project_Files/stage2/video4/css/main.css" afterPath="$PROJECT_DIR$/javascript_track/ajax/AJAX_Basics_Project_Files/stage2/video4/css/main.css" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/ajax/AJAX_Basics_Project_Files/stage2/video4/data/employees.json" afterPath="$PROJECT_DIR$/javascript_track/ajax/AJAX_Basics_Project_Files/stage2/video4/data/employees.json" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/ajax/AJAX_Basics_Project_Files/stage2/video4/index.html" afterPath="$PROJECT_DIR$/javascript_track/ajax/AJAX_Basics_Project_Files/stage2/video4/index.html" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/ajax/AJAX_Basics_Project_Files/stage2/video4/js/widget.js" afterPath="$PROJECT_DIR$/javascript_track/ajax/AJAX_Basics_Project_Files/stage2/video4/js/widget.js" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/ajax/AJAX_Basics_Project_Files/stage2/video5/__finished__/css/main.css" afterPath="$PROJECT_DIR$/javascript_track/ajax/AJAX_Basics_Project_Files/stage2/video5/__finished__/css/main.css" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/ajax/AJAX_Basics_Project_Files/stage2/video5/__finished__/data/employees.json" afterPath="$PROJECT_DIR$/javascript_track/ajax/AJAX_Basics_Project_Files/stage2/video5/__finished__/data/employees.json" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/ajax/AJAX_Basics_Project_Files/stage2/video5/__finished__/index.html" afterPath="$PROJECT_DIR$/javascript_track/ajax/AJAX_Basics_Project_Files/stage2/video5/__finished__/index.html" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/ajax/AJAX_Basics_Project_Files/stage2/video5/__finished__/js/widget.js" afterPath="$PROJECT_DIR$/javascript_track/ajax/AJAX_Basics_Project_Files/stage2/video5/__finished__/js/widget.js" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/ajax/AJAX_Basics_Project_Files/stage2/video5/css/main.css" afterPath="$PROJECT_DIR$/javascript_track/ajax/AJAX_Basics_Project_Files/stage2/video5/css/main.css" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/ajax/AJAX_Basics_Project_Files/stage2/video5/data/employees.json" afterPath="$PROJECT_DIR$/javascript_track/ajax/AJAX_Basics_Project_Files/stage2/video5/data/employees.json" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/ajax/AJAX_Basics_Project_Files/stage2/video5/index.html" afterPath="$PROJECT_DIR$/javascript_track/ajax/AJAX_Basics_Project_Files/stage2/video5/index.html" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/ajax/AJAX_Basics_Project_Files/stage2/video5/js/widget.js" afterPath="$PROJECT_DIR$/javascript_track/ajax/AJAX_Basics_Project_Files/stage2/video5/js/widget.js" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/ajax/AJAX_Basics_Project_Files/stage2/video6/css/main.css" afterPath="$PROJECT_DIR$/javascript_track/ajax/AJAX_Basics_Project_Files/stage2/video6/css/main.css" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/ajax/AJAX_Basics_Project_Files/stage2/video6/data/employees.json" afterPath="$PROJECT_DIR$/javascript_track/ajax/AJAX_Basics_Project_Files/stage2/video6/data/employees.json" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/ajax/AJAX_Basics_Project_Files/stage2/video6/data/rooms.json" afterPath="$PROJECT_DIR$/javascript_track/ajax/AJAX_Basics_Project_Files/stage2/video6/data/rooms.json" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/ajax/AJAX_Basics_Project_Files/stage2/video6/index.html" afterPath="$PROJECT_DIR$/javascript_track/ajax/AJAX_Basics_Project_Files/stage2/video6/index.html" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/ajax/AJAX_Basics_Project_Files/stage2/video6/js/widget.js" afterPath="$PROJECT_DIR$/javascript_track/ajax/AJAX_Basics_Project_Files/stage2/video6/js/widget.js" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/ajax/AJAX_Basics_Project_Files/stage2/video7/css/main.css" afterPath="$PROJECT_DIR$/javascript_track/ajax/AJAX_Basics_Project_Files/stage2/video7/css/main.css" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/ajax/AJAX_Basics_Project_Files/stage2/video7/data/employees.json" afterPath="$PROJECT_DIR$/javascript_track/ajax/AJAX_Basics_Project_Files/stage2/video7/data/employees.json" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/ajax/AJAX_Basics_Project_Files/stage2/video7/data/rooms.json" afterPath="$PROJECT_DIR$/javascript_track/ajax/AJAX_Basics_Project_Files/stage2/video7/data/rooms.json" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/ajax/AJAX_Basics_Project_Files/stage2/video7/index.html" afterPath="$PROJECT_DIR$/javascript_track/ajax/AJAX_Basics_Project_Files/stage2/video7/index.html" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/ajax/AJAX_Basics_Project_Files/stage2/video7/js/widget.js" afterPath="$PROJECT_DIR$/javascript_track/ajax/AJAX_Basics_Project_Files/stage2/video7/js/widget.js" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/ajax/AJAX_Basics_Project_Files/stage3/video1/css/main.css" afterPath="$PROJECT_DIR$/javascript_track/ajax/AJAX_Basics_Project_Files/stage3/video1/css/main.css" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/ajax/AJAX_Basics_Project_Files/stage3/video1/index.html" afterPath="$PROJECT_DIR$/javascript_track/ajax/AJAX_Basics_Project_Files/stage3/video1/index.html" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/ajax/AJAX_Basics_Project_Files/stage3/video1/javascript-example.html" afterPath="$PROJECT_DIR$/javascript_track/ajax/AJAX_Basics_Project_Files/stage3/video1/javascript-example.html" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/ajax/AJAX_Basics_Project_Files/stage3/video1/jquery-example.html" afterPath="$PROJECT_DIR$/javascript_track/ajax/AJAX_Basics_Project_Files/stage3/video1/jquery-example.html" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/ajax/AJAX_Basics_Project_Files/stage3/video1/sidebar.html" afterPath="$PROJECT_DIR$/javascript_track/ajax/AJAX_Basics_Project_Files/stage3/video1/sidebar.html" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/ajax/AJAX_Basics_Project_Files/stage3/video3/__finished__/css/main.css" afterPath="$PROJECT_DIR$/javascript_track/ajax/AJAX_Basics_Project_Files/stage3/video3/__finished__/css/main.css" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/ajax/AJAX_Basics_Project_Files/stage3/video3/__finished__/data/employees.json" afterPath="$PROJECT_DIR$/javascript_track/ajax/AJAX_Basics_Project_Files/stage3/video3/__finished__/data/employees.json" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/ajax/AJAX_Basics_Project_Files/stage3/video3/__finished__/index.html" afterPath="$PROJECT_DIR$/javascript_track/ajax/AJAX_Basics_Project_Files/stage3/video3/__finished__/index.html" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/ajax/AJAX_Basics_Project_Files/stage3/video3/__finished__/js/widget.js" afterPath="$PROJECT_DIR$/javascript_track/ajax/AJAX_Basics_Project_Files/stage3/video3/__finished__/js/widget.js" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/ajax/AJAX_Basics_Project_Files/stage3/video3/css/main.css" afterPath="$PROJECT_DIR$/javascript_track/ajax/AJAX_Basics_Project_Files/stage3/video3/css/main.css" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/ajax/AJAX_Basics_Project_Files/stage3/video3/data/employees.json" afterPath="$PROJECT_DIR$/javascript_track/ajax/AJAX_Basics_Project_Files/stage3/video3/data/employees.json" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/ajax/AJAX_Basics_Project_Files/stage3/video3/index.html" afterPath="$PROJECT_DIR$/javascript_track/ajax/AJAX_Basics_Project_Files/stage3/video3/index.html" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/ajax/AJAX_Basics_Project_Files/stage3/video3/js/widget.js" afterPath="$PROJECT_DIR$/javascript_track/ajax/AJAX_Basics_Project_Files/stage3/video3/js/widget.js" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/ajax/AJAX_Basics_Project_Files/stage3/video4/css/main.css" afterPath="$PROJECT_DIR$/javascript_track/ajax/AJAX_Basics_Project_Files/stage3/video4/css/main.css" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/ajax/AJAX_Basics_Project_Files/stage3/video4/demo.html" afterPath="$PROJECT_DIR$/javascript_track/ajax/AJAX_Basics_Project_Files/stage3/video4/demo.html" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/ajax/AJAX_Basics_Project_Files/stage3/video4/finished.html" afterPath="$PROJECT_DIR$/javascript_track/ajax/AJAX_Basics_Project_Files/stage3/video4/finished.html" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/ajax/AJAX_Basics_Project_Files/stage3/video4/index.html" afterPath="$PROJECT_DIR$/javascript_track/ajax/AJAX_Basics_Project_Files/stage3/video4/index.html" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/ajax/AJAX_Basics_Project_Files/stage3/video6/css/main.css" afterPath="$PROJECT_DIR$/javascript_track/ajax/AJAX_Basics_Project_Files/stage3/video6/css/main.css" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/ajax/AJAX_Basics_Project_Files/stage3/video6/index.html" afterPath="$PROJECT_DIR$/javascript_track/ajax/AJAX_Basics_Project_Files/stage3/video6/index.html" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/ajax/AJAX_Basics_Project_Files/stage3/video7/css/main.css" afterPath="$PROJECT_DIR$/javascript_track/ajax/AJAX_Basics_Project_Files/stage3/video7/css/main.css" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/ajax/AJAX_Basics_Project_Files/stage3/video7/data/employees.json" afterPath="$PROJECT_DIR$/javascript_track/ajax/AJAX_Basics_Project_Files/stage3/video7/data/employees.json" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/ajax/AJAX_Basics_Project_Files/stage3/video7/data/rooms.json" afterPath="$PROJECT_DIR$/javascript_track/ajax/AJAX_Basics_Project_Files/stage3/video7/data/rooms.json" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/ajax/AJAX_Basics_Project_Files/stage3/video7/index.html" afterPath="$PROJECT_DIR$/javascript_track/ajax/AJAX_Basics_Project_Files/stage3/video7/index.html" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/ajax/AJAX_Basics_Project_Files/stage3/video7/js/widget.js" afterPath="$PROJECT_DIR$/javascript_track/ajax/AJAX_Basics_Project_Files/stage3/video7/js/widget.js" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/ajax/AJAX_Basics_Project_Files/stage3/video8/css/main.css" afterPath="$PROJECT_DIR$/javascript_track/ajax/AJAX_Basics_Project_Files/stage3/video8/css/main.css" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/ajax/AJAX_Basics_Project_Files/stage3/video8/data/employees.json" afterPath="$PROJECT_DIR$/javascript_track/ajax/AJAX_Basics_Project_Files/stage3/video8/data/employees.json" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/ajax/AJAX_Basics_Project_Files/stage3/video8/data/rooms.json" afterPath="$PROJECT_DIR$/javascript_track/ajax/AJAX_Basics_Project_Files/stage3/video8/data/rooms.json" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/ajax/AJAX_Basics_Project_Files/stage3/video8/index.html" afterPath="$PROJECT_DIR$/javascript_track/ajax/AJAX_Basics_Project_Files/stage3/video8/index.html" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/ajax/AJAX_Basics_Project_Files/stage3/video8/js/widget.js" afterPath="$PROJECT_DIR$/javascript_track/ajax/AJAX_Basics_Project_Files/stage3/video8/js/widget.js" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/ajax/AJAX_Basics_Project_Files/stage4/video3/__finished__/css/main.css" afterPath="$PROJECT_DIR$/javascript_track/ajax/AJAX_Basics_Project_Files/stage4/video3/__finished__/css/main.css" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/ajax/AJAX_Basics_Project_Files/stage4/video3/__finished__/index.html" afterPath="$PROJECT_DIR$/javascript_track/ajax/AJAX_Basics_Project_Files/stage4/video3/__finished__/index.html" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/ajax/AJAX_Basics_Project_Files/stage4/video3/__finished__/js/flickr.js" afterPath="$PROJECT_DIR$/javascript_track/ajax/AJAX_Basics_Project_Files/stage4/video3/__finished__/js/flickr.js" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/ajax/AJAX_Basics_Project_Files/stage4/video3/css/main.css" afterPath="$PROJECT_DIR$/javascript_track/ajax/AJAX_Basics_Project_Files/stage4/video3/css/main.css" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/ajax/AJAX_Basics_Project_Files/stage4/video3/index.html" afterPath="$PROJECT_DIR$/javascript_track/ajax/AJAX_Basics_Project_Files/stage4/video3/index.html" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/ajax/AJAX_Basics_Project_Files/stage4/video3/js/flickr.js" afterPath="$PROJECT_DIR$/javascript_track/ajax/AJAX_Basics_Project_Files/stage4/video3/js/flickr.js" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/ajax/AJAX_Basics_Project_Files/stage4/video4/__finished__/css/main.css" afterPath="$PROJECT_DIR$/javascript_track/ajax/AJAX_Basics_Project_Files/stage4/video4/__finished__/css/main.css" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/ajax/AJAX_Basics_Project_Files/stage4/video4/__finished__/index.html" afterPath="$PROJECT_DIR$/javascript_track/ajax/AJAX_Basics_Project_Files/stage4/video4/__finished__/index.html" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/ajax/AJAX_Basics_Project_Files/stage4/video4/__finished__/js/flickr.js" afterPath="$PROJECT_DIR$/javascript_track/ajax/AJAX_Basics_Project_Files/stage4/video4/__finished__/js/flickr.js" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/ajax/AJAX_Basics_Project_Files/stage4/video4/css/main.css" afterPath="$PROJECT_DIR$/javascript_track/ajax/AJAX_Basics_Project_Files/stage4/video4/css/main.css" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/ajax/AJAX_Basics_Project_Files/stage4/video4/index.html" afterPath="$PROJECT_DIR$/javascript_track/ajax/AJAX_Basics_Project_Files/stage4/video4/index.html" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/ajax/AJAX_Basics_Project_Files/stage4/video4/js/flickr.js" afterPath="$PROJECT_DIR$/javascript_track/ajax/AJAX_Basics_Project_Files/stage4/video4/js/flickr.js" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/ajax/AJAX_Basics_Project_Files/stage4/video5/__finished__/css/main.css" afterPath="$PROJECT_DIR$/javascript_track/ajax/AJAX_Basics_Project_Files/stage4/video5/__finished__/css/main.css" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/ajax/AJAX_Basics_Project_Files/stage4/video5/__finished__/index.html" afterPath="$PROJECT_DIR$/javascript_track/ajax/AJAX_Basics_Project_Files/stage4/video5/__finished__/index.html" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/ajax/AJAX_Basics_Project_Files/stage4/video5/__finished__/js/flickr.js" afterPath="$PROJECT_DIR$/javascript_track/ajax/AJAX_Basics_Project_Files/stage4/video5/__finished__/js/flickr.js" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/ajax/AJAX_Basics_Project_Files/stage4/video5/css/main.css" afterPath="$PROJECT_DIR$/javascript_track/ajax/AJAX_Basics_Project_Files/stage4/video5/css/main.css" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/ajax/AJAX_Basics_Project_Files/stage4/video5/index.html" afterPath="$PROJECT_DIR$/javascript_track/ajax/AJAX_Basics_Project_Files/stage4/video5/index.html" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/ajax/AJAX_Basics_Project_Files/stage4/video5/js/flickr.js" afterPath="$PROJECT_DIR$/javascript_track/ajax/AJAX_Basics_Project_Files/stage4/video5/js/flickr.js" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/ajax/AJAX_Basics_Project_Files/stage4/video6/__finished__/css/main.css" afterPath="$PROJECT_DIR$/javascript_track/ajax/AJAX_Basics_Project_Files/stage4/video6/__finished__/css/main.css" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/ajax/AJAX_Basics_Project_Files/stage4/video6/__finished__/index.html" afterPath="$PROJECT_DIR$/javascript_track/ajax/AJAX_Basics_Project_Files/stage4/video6/__finished__/index.html" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/ajax/AJAX_Basics_Project_Files/stage4/video6/__finished__/js/flickr.js" afterPath="$PROJECT_DIR$/javascript_track/ajax/AJAX_Basics_Project_Files/stage4/video6/__finished__/js/flickr.js" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/ajax/AJAX_Basics_Project_Files/stage4/video6/css/main.css" afterPath="$PROJECT_DIR$/javascript_track/ajax/AJAX_Basics_Project_Files/stage4/video6/css/main.css" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/ajax/AJAX_Basics_Project_Files/stage4/video6/index.html" afterPath="$PROJECT_DIR$/javascript_track/ajax/AJAX_Basics_Project_Files/stage4/video6/index.html" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/ajax/AJAX_Basics_Project_Files/stage4/video6/js/flickr.js" afterPath="$PROJECT_DIR$/javascript_track/ajax/AJAX_Basics_Project_Files/stage4/video6/js/flickr.js" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/ajax/AJAX_Basics_Project_Files/stage4/video7/css/main.css" afterPath="$PROJECT_DIR$/javascript_track/ajax/AJAX_Basics_Project_Files/stage4/video7/css/main.css" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/ajax/AJAX_Basics_Project_Files/stage4/video7/index.html" afterPath="$PROJECT_DIR$/javascript_track/ajax/AJAX_Basics_Project_Files/stage4/video7/index.html" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/ajax/AJAX_Basics_Project_Files/stage4/video7/js/app.js" afterPath="$PROJECT_DIR$/javascript_track/ajax/AJAX_Basics_Project_Files/stage4/video7/js/app.js" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/ajax/AJAX_Basics_Project_Files/stage4/video8/css/main.css" afterPath="$PROJECT_DIR$/javascript_track/ajax/AJAX_Basics_Project_Files/stage4/video8/css/main.css" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/ajax/AJAX_Basics_Project_Files/stage4/video8/index.html" afterPath="$PROJECT_DIR$/javascript_track/ajax/AJAX_Basics_Project_Files/stage4/video8/index.html" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/ajax/AJAX_Basics_Project_Files/stage4/video8/js/app.js" afterPath="$PROJECT_DIR$/javascript_track/ajax/AJAX_Basics_Project_Files/stage4/video8/js/app.js" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/ajax/ajax_basics.js" afterPath="$PROJECT_DIR$/javascript_track/ajax/ajax_basics.js" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/ajax/index.html" afterPath="$PROJECT_DIR$/javascript_track/ajax/index.html" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/ajax/javascript/jquery.js" afterPath="$PROJECT_DIR$/javascript_track/ajax/javascript/jquery.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/css/css.md" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/css/web_design/css_basics.md" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/css/web_design/html_forms.md" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/javascript_track/ajax/ajax_basics.js" afterPath="$PROJECT_DIR$/javascript_track/ajax_basics.js" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/lightbox_complete/css/style.css" afterPath="$PROJECT_DIR$/css/style.css" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/lightbox_complete/images/boat.png" afterPath="$PROJECT_DIR$/css/lightbox_complete/images/boat.png" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/lightbox_complete/images/chuck.png" afterPath="$PROJECT_DIR$/css/lightbox_complete/images/chuck.png" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/lightbox_complete/images/copy_mcrepeatsalot.png" afterPath="$PROJECT_DIR$/css/lightbox_complete/images/copy_mcrepeatsalot.png" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/lightbox_complete/images/education.png" afterPath="$PROJECT_DIR$/css/lightbox_complete/images/education.png" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/lightbox_complete/images/illustrator_foundations.png" afterPath="$PROJECT_DIR$/css/lightbox_complete/images/illustrator_foundations.png" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/lightbox_complete/images/library.png" afterPath="$PROJECT_DIR$/css/lightbox_complete/images/library.png" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/lightbox_complete/images/refferal_machine.png" afterPath="$PROJECT_DIR$/css/lightbox_complete/images/refferal_machine.png" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/lightbox_complete/images/sebastian.png" afterPath="$PROJECT_DIR$/css/lightbox_complete/images/sebastian.png" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/lightbox_complete/images/skill-polish.png" afterPath="$PROJECT_DIR$/css/lightbox_complete/images/skill-polish.png" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/lightbox_complete/images/space-juice.png" afterPath="$PROJECT_DIR$/css/lightbox_complete/images/space-juice.png" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/lightbox_complete/images/treehouse_shop.jpg" afterPath="$PROJECT_DIR$/css/lightbox_complete/images/treehouse_shop.jpg" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/lightbox_complete/index.html" afterPath="$PROJECT_DIR$/css/lightbox_complete/index.html" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/lightbox_complete/js/app.js" afterPath="$PROJECT_DIR$/css/lightbox_complete/js/app.js" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="treehouse.iws" />
@@ -120,8 +43,34 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="express.js" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/javascript_track/express.js">
+      <file leaf-file-name="css.md" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/css/css.md">
+          <provider selected="true" editor-type-id="split-provider[text-editor;MarkdownPreviewEditor]">
+            <state split_layout="FIRST">
+              <first_editor relative-caret-position="900">
+                <caret line="60" column="22" selection-start-line="60" selection-start-column="22" selection-end-line="60" selection-end-column="22" />
+                <folding />
+              </first_editor>
+              <second_editor />
+            </state>
+          </provider>
+          <provider editor-type-id="MarkdownFxPreviewEditor">
+            <state />
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="style.css" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/css/web_design/3-understanding-values-and-Units/7-text-styles/start/css/style.css">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="105">
+              <caret line="7" column="0" selection-start-line="7" selection-start-column="0" selection-end-line="7" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="style.css" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/css/web_design/3-understanding-values-and-Units/7-text-styles/final/css/style.css">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="0">
               <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
@@ -130,11 +79,11 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="npm_basics.js" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/javascript_track/npm_basics.js">
+      <file leaf-file-name="index.html" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/css/web_design/3-understanding-values-and-Units/7-text-styles/start/index.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="476">
-              <caret line="55" column="5" selection-start-line="55" selection-start-column="5" selection-end-line="55" selection-end-column="5" />
+            <state relative-caret-position="135">
+              <caret line="9" column="37" selection-start-line="9" selection-start-column="37" selection-end-line="9" selection-end-column="37" />
               <folding />
             </state>
           </provider>
@@ -151,6 +100,16 @@
         <option value="$PROJECT_DIR$/javascript_track/module_pattern.js" />
         <option value="$PROJECT_DIR$/ajax/ajax_basics.js" />
         <option value="$PROJECT_DIR$/javascript_track/npm_basics.js" />
+        <option value="$PROJECT_DIR$/javascript_track/ajax_basics.js" />
+        <option value="$PROJECT_DIR$/javascript_track/mobile_menu_complete/index.html" />
+        <option value="$PROJECT_DIR$/lightbox_complete/web_design/overview-of-tables/index.html" />
+        <option value="$PROJECT_DIR$/lightbox_complete/web_design/html_forms.md" />
+        <option value="$PROJECT_DIR$/lightbox_complete/web_design/css_basics.md" />
+        <option value="$PROJECT_DIR$/lightbox_complete/web_design/3-understanding-values-and-Units/3-percentages/start/css/style.css" />
+        <option value="$PROJECT_DIR$/lightbox_complete/web_design/3-understanding-values-and-Units/6-color-values/start/css/style.css" />
+        <option value="$PROJECT_DIR$/css/web_design/3-understanding-values-and-Units/6-color-values/start/css/style.css" />
+        <option value="$PROJECT_DIR$/css/css.md" />
+        <option value="$PROJECT_DIR$/css/web_design/3-understanding-values-and-Units/7-text-styles/start/css/style.css" />
       </list>
     </option>
   </component>
@@ -161,10 +120,10 @@
     <sorting>DEFINITION_ORDER</sorting>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="596" />
-    <option name="y" value="-1057" />
-    <option name="width" value="1049" />
-    <option name="height" value="970" />
+    <option name="x" value="-554" />
+    <option name="y" value="-1417" />
+    <option name="width" value="2439" />
+    <option name="height" value="1404" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="false">
     <OptionsSetting value="true" id="Add" />
@@ -219,26 +178,216 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="javascript_track" />
+              <option name="myItemId" value="css" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="treehouse" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="treehouse" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="css" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="web_design" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="treehouse" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="treehouse" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="css" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="web_design" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="3-understanding-values-and-Units" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="treehouse" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="treehouse" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="css" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="web_design" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="3-understanding-values-and-Units" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="7-text-styles" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="treehouse" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="treehouse" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="css" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="web_design" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="3-understanding-values-and-Units" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="7-text-styles" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="final" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="treehouse" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="treehouse" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="css" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="web_design" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="3-understanding-values-and-Units" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="7-text-styles" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="final" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="css" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
         </subPane>
       </pane>
-      <pane id="Scratches" />
       <pane id="Scope" />
+      <pane id="Scratches" />
     </panes>
   </component>
   <component name="PropertiesComponent">
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="HbShouldOpenHtmlAsHb" value="" />
+    <property name="full.screen.before.presentation.mode" value="true" />
+    <property name="js-jscs-nodeInterpreter" value="/usr/local/bin/node" />
   </component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/css" />
+      <recent name="$PROJECT_DIR$" />
+      <recent name="$PROJECT_DIR$/lightbox_complete/web_design" />
       <recent name="$PROJECT_DIR$/javascript_track" />
       <recent name="$PROJECT_DIR$/ajax" />
     </key>
+  </component>
+  <component name="RunManager">
+    <configuration default="true" type="DartCommandLineRunConfigurationType" factoryName="Dart Command Line Application">
+      <method />
+    </configuration>
+    <configuration default="true" type="DartTestRunConfigurationType" factoryName="Dart Test">
+      <method />
+    </configuration>
+    <configuration default="true" type="JavaScriptTestRunnerKarma" factoryName="Karma">
+      <config-file value="" />
+      <node-interpreter value="project" />
+      <envs />
+      <method />
+    </configuration>
+    <configuration default="true" type="JavascriptDebugType" factoryName="JavaScript Debug">
+      <method />
+    </configuration>
+    <configuration default="true" type="NodeJSConfigurationType" factoryName="Node.js" path-to-node="project" working-dir="">
+      <method />
+    </configuration>
+    <configuration default="true" type="cucumber.js" factoryName="Cucumber.js">
+      <option name="cucumberJsArguments" value="" />
+      <option name="executablePath" />
+      <option name="filePath" />
+      <method />
+    </configuration>
+    <configuration default="true" type="js.build_tools.gulp" factoryName="Gulp.js">
+      <node-interpreter>project</node-interpreter>
+      <node-options />
+      <gulpfile />
+      <tasks />
+      <arguments />
+      <envs />
+      <method />
+    </configuration>
+    <configuration default="true" type="js.build_tools.npm" factoryName="npm">
+      <command value="run-script" />
+      <scripts />
+      <node-interpreter value="project" />
+      <envs />
+      <method />
+    </configuration>
+    <configuration default="true" type="mocha-javascript-test-runner" factoryName="Mocha">
+      <node-interpreter>project</node-interpreter>
+      <node-options />
+      <working-directory />
+      <pass-parent-env>true</pass-parent-env>
+      <envs />
+      <ui />
+      <extra-mocha-options />
+      <test-kind>DIRECTORY</test-kind>
+      <test-directory />
+      <recursive>false</recursive>
+      <method />
+    </configuration>
   </component>
   <component name="ShelveChangesManager" show_recycled="false">
     <option name="remove_strategy" value="false" />
@@ -256,33 +405,61 @@
       <workItem from="1477093320507" duration="1606000" />
       <workItem from="1477505053438" duration="2237000" />
       <workItem from="1477528415447" duration="1179000" />
+      <workItem from="1477584544254" duration="3136000" />
+      <workItem from="1477673310204" duration="623000" />
+      <workItem from="1477947805519" duration="18000" />
+      <workItem from="1477947832542" duration="599000" />
+      <workItem from="1477949679172" duration="21000" />
+      <workItem from="1478734789644" duration="4552000" />
+      <workItem from="1478762748040" duration="779000" />
+      <workItem from="1479430628636" duration="1555000" />
+      <workItem from="1479492093630" duration="2894000" />
+      <workItem from="1479752063149" duration="598000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="5022000" />
+    <option name="totallyTimeSpent" value="19797000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="596" y="-1057" width="1049" height="970" extended-state="0" />
-    <editor active="true" />
+    <frame x="-554" y="-1417" width="2439" height="1404" extended-state="0" />
+    <editor active="false" />
     <layout>
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.21303502" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.11621174" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32915717" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.21850699" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
-      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
       <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
     </layout>
+    <layout-to-restore>
+      <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
+      <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
+      <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32915717" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
+      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.10373881" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+    </layout-to-restore>
   </component>
   <component name="Vcs.Log.UiProperties">
     <option name="RECENTLY_FILTERED_USER_GROUPS">
@@ -300,11 +477,186 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/javascript_track/ajax/index.html">
+    <entry file="file://$PROJECT_DIR$/css/css.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;MarkdownPreviewEditor]">
+        <state split_layout="FIRST">
+          <first_editor relative-caret-position="900">
+            <caret line="60" column="22" selection-start-line="60" selection-start-column="22" selection-end-line="60" selection-end-column="22" />
+            <folding />
+          </first_editor>
+          <second_editor />
+        </state>
+      </provider>
+      <provider editor-type-id="MarkdownFxPreviewEditor">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/css/web_design/3-understanding-values-and-Units/7-text-styles/start/css/style.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="105">
+          <caret line="7" column="0" selection-start-line="7" selection-start-column="0" selection-end-line="7" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/css/web_design/3-understanding-values-and-Units/7-text-styles/final/css/style.css">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/css/web_design/3-understanding-values-and-Units/7-text-styles/start/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="135">
+          <caret line="9" column="37" selection-start-line="9" selection-start-column="37" selection-end-line="9" selection-end-column="37" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/css/web_design/3-understanding-values-and-Units/3-percentages/start/css/style.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/css/web_design/html_forms.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;MarkdownPreviewEditor]">
+        <state split_layout="FIRST">
+          <first_editor relative-caret-position="465">
+            <caret line="31" column="0" selection-start-line="31" selection-start-column="0" selection-end-line="31" selection-end-column="0" />
+          </first_editor>
+          <second_editor />
+        </state>
+      </provider>
+      <provider editor-type-id="MarkdownFxPreviewEditor">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/css/web_design/overview-of-tables/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="210">
+          <caret line="14" column="13" selection-start-line="14" selection-start-column="13" selection-end-line="14" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/css/web_design/css_basics.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;MarkdownPreviewEditor]">
+        <state split_layout="FIRST">
+          <first_editor relative-caret-position="1425">
+            <caret line="95" column="28" selection-start-line="95" selection-start-column="28" selection-end-line="95" selection-end-column="28" />
+          </first_editor>
+          <second_editor />
+        </state>
+      </provider>
+      <provider editor-type-id="MarkdownFxPreviewEditor">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/css/web_design/3-understanding-values-and-Units/3-percentages/start/css/style.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/css/web_design/3-understanding-values-and-Units/3-percentages/start/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="690">
+          <caret line="46" column="25" selection-start-line="46" selection-start-column="20" selection-end-line="46" selection-end-column="25" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/javascript_track/mobile_menu_complete/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/javascript_track/mobile_menu_complete/js/app.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/javascript_track/mobile_menu_complete/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/javascript_track/mobile_menu_complete/js/app.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/javascript_track/mobile_menu_complete/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/javascript_track/mobile_menu_complete/js/app.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/javascript_track/mobile_menu_complete/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/javascript_track/mobile_menu_complete/js/app.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/javascript_track/mobile_menu_complete/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="120">
+          <caret line="8" column="67" selection-start-line="8" selection-start-column="67" selection-end-line="8" selection-end-column="67" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/javascript_track/mobile_menu_complete/js/app.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/javascript_track/express.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/javascript_track/npm_basics.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/javascript_track/ajax/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
         </state>
       </provider>
     </entry>
@@ -312,15 +664,13 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/javascript_track/ajax/ajax_basics.js">
+    <entry file="file://$PROJECT_DIR$/javascript_track/ajax_basics.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="105">
           <caret line="7" column="1" selection-start-line="7" selection-start-column="1" selection-end-line="7" selection-end-column="1" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -335,15 +685,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/javascript_track/ajax/ajax_basics.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="105">
-          <caret line="7" column="1" selection-start-line="7" selection-start-column="1" selection-end-line="7" selection-end-column="1" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -351,7 +692,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -359,14 +699,160 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/javascript_track/npm_basics.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="476">
+        <state relative-caret-position="493">
           <caret line="55" column="5" selection-start-line="55" selection-start-column="5" selection-end-line="55" selection-end-column="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/javascript_track/ajax_basics.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="225">
+          <caret line="13" column="0" selection-start-line="13" selection-start-column="0" selection-end-line="13" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/javascript_track/jquery.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="390">
+          <caret line="24" column="0" selection-start-line="24" selection-start-column="0" selection-end-line="24" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/javascript_track/mobile_menu_complete/faqs.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/css/style.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/css/lightbox_complete/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/javascript_track/mobile_menu_complete/js/app.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/javascript_track/mobile_menu_complete/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="120">
+          <caret line="8" column="67" selection-start-line="8" selection-start-column="67" selection-end-line="8" selection-end-column="67" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/css/web_design/html_forms.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;MarkdownPreviewEditor]">
+        <state split_layout="FIRST">
+          <first_editor relative-caret-position="1023">
+            <caret line="31" column="0" selection-start-line="31" selection-start-column="0" selection-end-line="31" selection-end-column="0" />
+          </first_editor>
+          <second_editor />
+        </state>
+      </provider>
+      <provider editor-type-id="MarkdownFxPreviewEditor">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/css/web_design/overview-of-tables/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="462">
+          <caret line="14" column="13" selection-start-line="14" selection-start-column="13" selection-end-line="14" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/css/web_design/3-understanding-values-and-Units/3-percentages/start/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1881">
+          <caret line="46" column="25" selection-start-line="46" selection-start-column="20" selection-end-line="46" selection-end-column="25" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/css/web_design/css_basics.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;MarkdownPreviewEditor]">
+        <state split_layout="FIRST">
+          <first_editor relative-caret-position="3135">
+            <caret line="95" column="28" selection-start-line="95" selection-start-column="28" selection-end-line="95" selection-end-column="28" />
+          </first_editor>
+          <second_editor />
+        </state>
+      </provider>
+      <provider editor-type-id="MarkdownFxPreviewEditor">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/css/web_design/3-understanding-values-and-Units/3-percentages/start/css/style.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="765">
+          <caret line="52" column="0" selection-start-line="52" selection-start-column="0" selection-end-line="52" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/css/web_design/3-understanding-values-and-Units/6-color-values/start/css/style.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="375">
+          <caret line="25" column="22" selection-start-line="25" selection-start-column="22" selection-end-line="25" selection-end-column="22" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/css/web_design/3-understanding-values-and-Units/6-color-values/start/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/css/web_design/3-understanding-values-and-Units/7-text-styles/start/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="135">
+          <caret line="9" column="37" selection-start-line="9" selection-start-column="37" selection-end-line="9" selection-end-column="37" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/css/css.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;MarkdownPreviewEditor]">
+        <state split_layout="FIRST">
+          <first_editor relative-caret-position="900">
+            <caret line="60" column="22" selection-start-line="60" selection-start-column="22" selection-end-line="60" selection-end-column="22" />
+            <folding />
+          </first_editor>
+          <second_editor />
+        </state>
+      </provider>
+      <provider editor-type-id="MarkdownFxPreviewEditor">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/css/web_design/3-understanding-values-and-Units/7-text-styles/start/css/style.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="105">
+          <caret line="7" column="0" selection-start-line="7" selection-start-column="0" selection-end-line="7" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/css/web_design/3-understanding-values-and-Units/7-text-styles/final/css/style.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding />
         </state>
       </provider>
