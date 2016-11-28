@@ -153,3 +153,12 @@ button {
 .spoiler span {
   color: #dae1e4;
 }
+
+
+jQuery Methods Used
+
+hide()
+focus()
+val()
+next()
+keyup()
