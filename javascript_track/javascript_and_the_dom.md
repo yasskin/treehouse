@@ -140,6 +140,7 @@ Node.removeChild(childElement);
 
 Changing Element Attributes 2:56
 with Guil Hernandez and Joel Kraft
+
 Attributes, like the href attribute on a link, or the action attribute on a form, exist as properties of an element object. You get or set them in a similar way we saw with text in the last video. In this video, we'll look at index.html and find an attribute to access.
 
 Here is a list of standard HTML element attributes for reference.
@@ -147,7 +148,56 @@ https://developer.mozilla.org/en-US/docs/Web/HTML/Attributes
 
 You can also use getAttribute and setAttribute to manage attributes, though the technique presented in the video is more likely what you'll see in production.
 
-11 steps
+Events :
+load
+click
+dblclick
+mousedown
+mouseup
+mousemove
+mouseover
+mouseout
+touchstart
+keydown
+keyup
+keypress
+
+MDN has a thorough list of DOM events, as well as demonstration code so you can see many of them in use.
+https://developer.mozilla.org/en-US/docs/Web/Events
+
+events trigger responses.
+
+Functions as Parameters 4:27
+with Guil Hernandez and Joel Kraft
+Just as you can pass a number to a function, you can pass a function to a function. This might sound a bit strange, but once you've tried it a few times, you'll get the hang of it. You'll also unlock one of JavaScript's most powerful features.
+
+To learn more about the distinction between function expressions and function statements, check out the MDN articles linked below.
+
+Function statements
+https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Statements/function
+Function expressions
+https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Operators/function
+
+Delaying Execution with setTimeout() 2:35
+with Guil Hernandez and Joel Kraft
+The window object has a setTimeout function we can use to delay the execution of a function.
+
+MDN page for setTimeout
+https://developer.mozilla.org/en-US/docs/Web/API/WindowTimers/setTimeout
+var timeoutID = window.setTimeout(func[, delay, param1, param2, ...]);
+
+Listening for Events with addEventListener()7:49
+with Guil Hernandez and Joel Kraft
+
+You learned that there are three basic concepts to making a site interactive. Selection is always the first step. Then you can either manipulate the element directly, or ask it to listen for user actions. Now it's time to learn about the third one, listening for user actions, or events.
+
+Making a Site interactive
+
+1. selecting elements on a page
+2. Manipulating elements
+3. Ask element to listen for user actions
+
+EventTarget.addEventListener();
 
 Responding to User Interaction
 
