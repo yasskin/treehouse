@@ -1,5 +1,6 @@
 The CSS Box Model 4:05
 with Guil Hernandez
+
 The box model is what describes the amount of space each element takes up on the page. Let's dig a little deeper into this concept by going over the main components that make up the CSS Box Model.
 
 The CSS Box Model - MDN
@@ -21,7 +22,7 @@ height
 https://developer.mozilla.org/en-US/docs/Web/CSS/height
 
 box-sizing and max-width 6:31
-with Guil Hernandez
+
 With the box-sizing property, we can alter the way the browser calculates an element's total width and height. We're also able to set the maximum width of an element with the max-width property.
 
 box-sizing
@@ -37,7 +38,7 @@ Take Control of the Box Model with box-sizing
 http://blog.teamtreehouse.com/take-control-of-the-box-model-with-box-sizing
 
 Backgrounds: Size and Position 6:08
-with Guil Hernandez
+
 In this video, we'll learn how certain properties affect the size and position of an element's background.
 
 Full Page Background Images in CSS
@@ -56,10 +57,11 @@ The cover value adjusts the background area so that it's completely covered by t
 }
 
 Floats 5:23
-with Guil Hernandez
+
 In this video, we’ll learn some of the basics of float layout.
 
 CSS Layout Techniques - Floats
+
 Quick Reference
 
 Floats are one of the most commonly used methods for laying out a page with CSS. When an element is floated, the element is taken out of the normal flow of the page and placed along the left or right side of its container.
@@ -76,7 +78,7 @@ The following will place the element along the left side of its container:
 }
 
 Lists 6:18
-with Guil Hernandez
+
 In this video, we’ll cover the different ways we can use list properties to control the appearance of our lists.
 
 list-style-type
@@ -89,11 +91,11 @@ list-style
 The shorthand property for setting list-style-type, list-style-image and list-style-position.
 
 Text Shadows 5:43
-with Guil Hernandez
+
 In this video, we'll learn how to add shadows to text with CSS.
 
 Box Shadows 6:22
-with Guil Hernandez
+
 Like text-shadow, we're able to cast shadows off elements with the box-shadow property.
 
 The order of values for box-shadow is exactly like the order of values for the text-shadow property:
@@ -120,7 +122,7 @@ Just like the text-shadow property you can use multiple box-shadow values separa
     }
 
 Gradients 7:23
-with Guil Hernandez
+
 With CSS gradients, we can add depth to our designs by creating smooth and gradual transitions between two or more colors.
 
 Using CSS gradients
@@ -129,14 +131,13 @@ linear-gradient
 radial-gradient
 
 Gradients: Color Stops 3:49
-with Guil Hernandez
+
 We're able to add color stops to control the progression of colors in a linear and radial gradient. Color stops are stopping points in a gradient that show a specific color at the exact location we set.
 
 Color stops in CSS gradients
 https://developer.mozilla.org/en-US/docs/Web/CSS/CSS_Images/Using_CSS_gradients#Linear_gradients-Color_stops
 
 Transparent Gradients and Multiple Backgrounds3:56
-with Guil Hernandez
 
 CSS lets us layer multiple backgrounds and create gradients where a color value transitions into a transparent value. In this video, we're going to create transparent gradients that overlay our main header's background image.
 
@@ -147,7 +148,7 @@ Using CSS multiple backgrounds
 https://developer.mozilla.org/en-US/docs/Web/CSS/CSS_Background_and_Borders/Using_CSS_multiple_backgrounds
 
 Web Fonts with @font-face 8:32
-with Guil Hernandez
+
 Web fonts are special types of fonts that are optimized for screen display, and they're linked to our web pages from an external source. Web fonts eliminate the need to depend on the limited number of fonts installed on a user's computers.
 
 How to Choose and Use Webfonts
@@ -168,7 +169,7 @@ https://teamtreehouse.com/library/web-typography#how-to-choose-and-use-webfonts
 EOT Embedded OpenType format
 
 Media Queries
-with Guil Hernandez
+
 With media queries, we're able to enhance the browsing experience of websites on multiple devices and viewport sizes. This allows us to tailor our content to a wide range of devices without having to change anything in the HTML.
 
 CSS media queries - MDN
@@ -180,7 +181,7 @@ Tools
 Window Resizer - Resize browser window to emulate various screen resolutions
 
 Adjusting the Layout with Media Queries 13:16
-with Guil Hernandez
+
 As the final step in our Lake Tahoe website project, we'll need to add media query breakpoints to adjust the layout for mobile devices and narrow viewport sizes.
 
 Using the viewport meta tag to control layout on mobile browsers
@@ -190,12 +191,10 @@ Device Mode & Mobile Emulation
 Window Resizer - Resize browser window to emulate various screen resolutions
 
 The Cascade: Importance 2:26
-with Guil Hernandez
 
 An important part of learning CSS is understanding how CSS rules are applied by the browser via the cascade. In CSS, the cascade is what determines which styles are assigned to an HTML element.
 
 The Cascade: Specificity and Source Order 2:32
-with Guil Hernandez
 
 Specificity is what resolves a lot the conflict between style declarations and decides which styles are applied by the browser. The cascade also assigns a priority to CSS styles based on what order they appear.
 
@@ -203,7 +202,7 @@ Cascade - MDN
 Specificity - MDN
 
 Inheritance 2:27
-with Guil Hernandez
+
 Inheritance in CSS means that an element’s style values are copied from its parent element. Inheritance allows us to keep styles consistent throughout a website without having to repeat them in our code.
 
 Cascading and inheritance - MDN
@@ -211,7 +210,7 @@ inherit value
 initial value
 
 Learning Tips and Tools 2:59
-with Guil Hernandez
+
 In this video, we'll cover tips and tools to help you practice and retain what you’re learning.
 
 Create new subpages for the Lake Tahoe website

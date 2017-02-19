@@ -138,3 +138,121 @@ Inline elements, like images, links and span tags, do not create line breaks in 
 Block-level elements, like divs, paragraphs and headings, stack on top of each other and expand to fill their parent.
 The browser does not apply width and height properties, or top and bottom margin settings to inline elements.
 An inline element will only accept left/right margins and any padding value.
+
+How Floats Work 1:31
+with Guil Hernandez
+Floats are similar to the inline-block method you learned in the previous section. You can layout elements side by side to create horizontal navigation menus and columns. The biggest difference between floats and inline-block is that floated elements are taken out of the normal document flow and content flows, or wraps, alongside them.
+
+CSS Floats 101 - A List Apart
+http://alistapart.com/article/css-floats-101
+MDN - float
+Video review
+
+By default, browsers display elements in the order they appear in the HTML source code. This order is called the normal document flow.
+Elements in the normal document flow are either block or inline; they appear stacked on top of each other or on the same line as the content and elements beside them.
+When you apply a float to an element, the element gets taken out of the normal document flow and shifted to the left or right side of its container.
+Any content next to the float flows -- or wraps -- around its left or right side.
+Related videos
+
+CSS Basics - Floats
+
+Creating a Horizontal Navigation with Floats 5:07
+with Guil Hernandez
+Besides wrapping text around images, you can use floats to create entire web layouts. For example, you can float the links in a navigation, or content columns in a container.
+
+MDN - float
+Nine rules for float behavior
+https://www.w3.org/TR/CSS21/visuren.html#float-position
+
+Video review
+
+With floats, we don't have to worry about the the extra whitespace that can appear when using inline or inline-block display.
+Floated elements will sit adjacent to each other regardless of the HTML whitespace between them.
+If a block-level element contains floated elements, its height collapses.
+Related videos
+
+CSS Basics - Floats
+
+Clearing and Containing Floats 6:40
+with Guil Hernandez
+The floats in the header caused a common, undesirable layout behavior you'll likely face when using floats. When you float elements, the parent container no longer honors the space of the floated elements inside it, so its height collapses.
+
+Float clearfix
+http://nicolasgallagher.com/micro-clearfix-hack/
+
+The clear property
+The overflow property
+::after pseudo-element
+display: table;
+Video review
+
+A parent container with floated elements may not always collapse to no height at all; if the container includes a padding or height value, it'll have some visible height.
+There are a two common ways to force a collapsed element to expand to the full height of its floated child elements:
+Setting the parent element's overflow value to hidden or auto
+Clearing the floats with a CSS pseudo-element
+A clearfix fixes the collapsing issue by forcing a container to expand and contain the floated elements.
+
+Related videos
+
+CSS Basics - Clearing Floats
+Pseudo-element Selectors
+
+The Float Challenge 1:22
+with Guil Hernandez
+You've learned a lot about CSS floats in this section of course. Now it's your turn to lay out parts of the design using floats.
+Teacher's Notes
+
+MDN - float
+https://developer.mozilla.org/en-US/docs/Web/CSS/float
+Float clearfix
+http://nicolasgallagher.com/micro-clearfix-hack/
+Nine rules for float behavior
+https://www.w3.org/TR/CSS21/visuren.html#float-position
+
+Video review
+
+Give each column inside the main container a fluid width.
+The 'primary' column can be 60% wide and the 'secondary' column can be 40% -- it's up to you.
+Use floats to display both columns horizontally so that they appear on the same line.
+You're building the column layout using a mobile first approach, so the horizontal layout should apply to large screens only.
+Be aware of collapsing containers caused by floats.
+Related videos
+
+CSS Basics - Floats
+CSS Basics - Clearing Floats
+Column layout tips
+
+To add a left gutter to all but the first column, you can use this:
+
+.col + .col {
+  padding-left: 1em;
+}
+To remove the right gutter from the column closest to the right edge of the page, use :last-child
+
+.col:last-child {
+  padding-right: 0;
+}
+Bringing it all together
+This snippet floats all columns left and applies a right gutter. It applies a left gutter to all but the first column, so the first column will be flush with the left margin of the page. Then it removes the right gutter from last column, so that it's flush with the right margin of the page.
+
+.col {
+  float: left;
+  padding-right: 1em;
+}
+
+.col + .col {
+  padding-left: 1em;
+}
+
+.col:last-child {
+  padding-right: 0;
+}
+You can also apply a gutter using just a left padding or margin value, like this:
+
+.col {
+  float: left;
+}
+
+.col + .col {
+  padding-left: 1.5em;
+}

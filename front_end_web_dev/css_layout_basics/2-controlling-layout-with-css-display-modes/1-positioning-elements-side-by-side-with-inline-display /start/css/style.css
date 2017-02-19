@@ -1,4 +1,4 @@
-/* ================================= 
+/* =================================
   Base Styles
 ==================================== */
 
@@ -32,7 +32,7 @@ a {
 	text-decoration: none;
 }
 
-/* ================================= 
+/* =================================
   Base Layout Styles
 ==================================== */
 
@@ -60,6 +60,12 @@ a {
 	color: #093a58;
 }
 
+.name a,
+.main-nav a {
+	padding: 10px 15px;
+	display: block;
+}
+
 /* ---- Layout Containers ---- */
 
 .container {
@@ -68,6 +74,7 @@ a {
 }
 
 .main-header {
+	text-align: center;
 	padding-top: 1.5em;
 	padding-bottom: 1.5em;
 	background: #3acec2;
@@ -80,7 +87,7 @@ a {
 	background: #d9e4ea;
 }
 
-/* ================================= 
+/* =================================
   Media Queries
 ==================================== */
 
@@ -94,6 +101,19 @@ a {
 		width: 80%;
 		max-width: 1150px;
 		margin: 0 auto;
+	}
+
+	.name,
+	.main-nav li {
+		display: inline-block;
+	}
+
+	.name {
+		width: 240px;
+	}
+
+	.main-nav li {
+		margin-right: 12px;
 	}
 
 }
