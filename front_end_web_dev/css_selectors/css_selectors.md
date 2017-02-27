@@ -1,5 +1,8 @@
-Course Overview 1:49
+FRONT END WEB DEVELOPMENT
 
+CSS SELECTORS
+
+Course Overview 1:49
 with Guil Hernandez
 
 Get a quick overview of the CSS Selectors course.
@@ -15,25 +18,30 @@ https://developer.mozilla.org/en-US/docs/Web/CSS/Attribute_selectors
 
 This attribute selector targets any element that has a class attribute:
 
+```
 [class] {
   border: solid 1px #ccc;
 }
+```
 
 To target an input element with a type value of submit, we write:
 
+```
 input[type="submit"] {
   background-color: green;
 }
+```
+
 This targets a elements with a target value of _blank:
 
+```
 a[target="_blank"] {
   color: tomato;
 }
-
+```
 __
 
-Styling Form Buttons and Links with Attribute Selectors3:34
-with Guil Hernandez
+Styling Form Buttons and Links with Attribute Selectors 3:34
 
 Now that we know how to target an element's attribute, let's learn the different ways we can select form buttons and links with attribute selectors.
 
@@ -49,7 +57,6 @@ input[type="email"] {
 }
 
 DRY CSS 10:51
-with Guil Hernandez
 
 DRY stands for "Don’t Repeat Yourself." The main idea with DRY in CSS is to avoid repeating the same bits of code in our style sheet. In this video, we'll take a look at a few example of writing DRY'er CSS.
 
@@ -68,7 +75,7 @@ Each property value pair is defined once.
 It works best with classes - not IDs.
 
 CSS:
-
+```
 .btn {
  cursor: pointer;   
  color: #fff;
@@ -78,13 +85,13 @@ CSS:
 .default-theme {
   background-color: coral;
 }
-
+```
 HTML:
-
+```
 <input class="btn default-theme" type="submit" value="submit">
+```
 
 Child, Adjacent, and General Sibling Combinators 9:03
-with Guil Hernandez
 
 Combinators give us the flexibility of targeting any siblings of an element. We can use the greater-than sign (>), plus sign (+), or tilde symbol (~) to make our selectors more specific.
 
@@ -112,7 +119,6 @@ DRY Don't repeat Yourself
 "~" targets all the specified siblings that follow and element
 
 :first-child and :last-child 4:15
-with Guil Hernandez
 
 In this video, we'll learn how to target first and last child elements with the :first-child and :last child structural pseudo-classes.
 
@@ -125,17 +131,18 @@ Using :first-child and :last-child
 
 To target the first child div element inside a parent, we can write:
 
+```
 div:first-child {
   margin-left: 0;
 }
+```
 To target the last li element in a list, we can write:
-
+```
 li:last-child {
   float: right;
 }
-
+```
 :only-child and :empty 4:58
-with Guil Hernandez
 
 Besides being able to target first and last child elements with pseudo-classes, the browser can also target only child elements and empty elements.
 
@@ -146,18 +153,20 @@ https://developer.mozilla.org/en-US/docs/Web/CSS/:empty
 Using :only-child and :empty
 
 To target a span that is the only child element in a parent div, we can write:
-
+```
 div span:only-child {
   font-size: .5em;
 }
-To target all elements that have no child content, we can write:
+```
 
+To target all elements that have no child content, we can write:
+```
 :empty {
   background: red;
 }
+```
 
 Substring Matching Attribute Selectors - "Begins With" and "Ends With" 8:19
-with Guil Hernandez
 
 With substring matching attribute selectors, we can target specific pieces of an attribute's value, like certain letters and words.
 
@@ -182,12 +191,13 @@ $ matches a piece at the end of an attribute's value
 * matches any part of an attribute's value
 This selector matches an a element containing the word blog anywhere inside its href value:
 
+```
 a[href*="blog"] {
   border-bottom: solid 2px steelblue;
 }
+```
 
 Element States Pseudo-Classes 6:20
-with Guil Hernandez
 
 Like user-action pseudo classes, CSS has UI element states pseudo-classes that let us target elements based on user interaction states.
 
@@ -204,16 +214,17 @@ https://developer.mozilla.org/en-US/docs/Web/CSS/:checked
 Using :disabled and :checked
 
 To target a disabled input element, we can write:
-
+```
 input:disabled {
   background-color: grey;
 }
+```
 To target a radio button or checkbox when checked, we can write:
-
+```
 :checked {
   border-color: red;
 }
-
+```
 :first-child and :last-child select the first and last child of a parent
 
 :only-child targets elements with no siblings
@@ -227,7 +238,6 @@ Substring matching attribute selectors match specific pieces of an attribute's v
 :checked
 
 :nth-child 8:00
-with Guil Hernandez
 
 :nth-child is a powerful structural pseudo-class because it targets child elements based on any position inside a parent.
 
@@ -237,12 +247,12 @@ https://developer.mozilla.org/en-US/docs/Web/CSS/:nth-child
 Using :nth-child
 
 This target the even li elements in a parent:
-
+```
 li:nth-child(even) {
   background: blue;
   color: white;
 }
-
+```
 :nth-of-type 4:30
 
 The :nth-of-type pseudo-class targets an element based on its position within a parent, but only if it’s a specific type of element.
@@ -251,12 +261,12 @@ The :nth-of-type pseudo-class targets an element based on its position within a 
 Using :nth-of-type
 
 This selector targets the 4th div inside the parent, no matter what type of child elements come before it:
-
+```
 div:nth-of-type(4) {
   background: #52bab3;
   color: white;
 }
-
+```
 :root and :target 5:12
 
 In this video, we'll cover the :root and :target pseudo-classes. :root selects the highest-level parent element in a document, and :target selects an element when it's the target of a link.
