@@ -1,33 +1,32 @@
-SKETCH BASICS
+# SKETCH BASICS
 
+### Teacher
+* Christopher Downer is UI designer at Bohemian Coding, based in the UK.
 
-Teacher
-Christopher Downer is UI designer at Bohemian Coding, based in the UK.
-
-About this Course
+## About this Course
 
 Sketch 3 is an easy­ to ­use and powerful digital design tool for the Mac. It is quickly becoming the standard for many digital professionals and agencies because it was specifically made for them and their needs. Sketch can be used to create all manner of stunning digital designs from mobile applications to websites and icons. In this course we will introduce to you the basics of Sketch as well as looking at some of the more advanced features. We will give you the unimpeded confidence to begin creating your own designs regardless if you’re already familiar with other design tools or have never used one before! It is recommended that you purchase Sketch 3 for this course.
 
-What you'll learn
+## What you'll learn
 
 Draw and Style Objects using Sketch 3
 Edit and Organize Content
 Export and Share your projects
 Create a user interface
 
-1 Introducing Sketch
+1. Introducing Sketch
 
 Start with the basics, answering the question “What is Sketch and where can I get it?”. Once installed, you will get a virtual tour of the app before diving in.
 
-2 Sketch Features
+2. Sketch Features
 
 Learn the basic features of Sketch, which act as the foundations of every project. From creating objects, to organizing and laying them out.
 
-3 Exporting Designs
+3. Exporting Designs
 
 Once you have some designs and objects down on Canvas, you will learn how to get them out of Sketch, and onto your computer or iOS device.
 
-4 Build a Mobile Interface
+4. Build a Mobile Interface
 
 Now that you are familiar enough with some of the features of Sketch, bring everything you have learned together as well as learning some new and slightly advanced skills as we create a simple mobile interface.
 
