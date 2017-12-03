@@ -7,7 +7,7 @@ namespace TreehouseDefense
         public static void Main()
         {
             Map map = new Map(8, 5);
-            
+
             try
             {
                 Path path = new Path(
@@ -22,6 +22,31 @@ namespace TreehouseDefense
                         new MapLocation(7, 2, map)
                     }
                 );
+
+                Invader[] invaders =
+                {
+                  new Invader(path),
+                  new Invader(path),
+                  new Invader(path),
+                  new Invader(path)
+                };
+
+                Tower[] towers =
+                {
+                    new Tower (new MapLocation(1, 3)),
+                    new Tower (new MapLocation(3, 3)),
+                    new Tower (new MapLocation(5, 3))
+                };
+
+                Level level = new level(invaders)
+                {
+                  Towers = towers
+                };
+
+                bool playerWon = level.Play();
+
+                Console.WriteLine("Player " + (playerWon? "won" : "lost"));
+
             }
             catch(OutOfBoundsException ex)
             {
