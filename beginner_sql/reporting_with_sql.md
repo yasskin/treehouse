@@ -260,60 +260,198 @@ SELECT LENGTH("Test");
 
 Performing mathematic operations on groups of rows, like getting a total or getting an average is super handy. In this stage you'll learn this and more.
 
-Counting Results
+# Counting Results
+Counting the number of rows is great for answering questions such as "How many users do we have?" and "How many sales happened this week?".
 
-Counting Results
+## Counting Results
+To count rows you can use the COUNT() function.
+```
+SELECT COUNT(*) FROM <table>;
+```
+To count unique entries use the DISTINCT keyword too:
+```
+SELECT COUNT(DISTINCT <column>) FROM <table>;
 
-Counting Groups of Rows
+SELECT COUNT(*) FROM customers WHERE first_name = "Andrew";
 
-Counting Groups
+SELECT COUNT(DISTINCT category) FROM products;
 
-Getting the Grand Total
+SELECT COUNT(genre) AS scifi_book_count FROM books WHERE genre = "Science Fiction";
+```
+## Counting Groups of Rows
+It’s often handy to group rows together to count them. For example you could answer the question "How many books are in each genre?"
 
-Summing Values
+To count aggregated rows with common values use the GROUP BY keywords:
+```
+SELECT COUNT(<column>) FROM <table> GROUP BY <column with common value>;
 
-Calculating Averages
+SELECT category FROM products GROUP BY category;
 
-Averaging Values
 
-Getting Minimum and Maximum Values
+```
+## Counting Groups
 
-Calculating the Minimum and Maximum Values
+## Getting the Grand Total
+Calculating grand totals are handy for answering questions like "How much was spent today on the site?" and "What are the total number of goals scored by a particular team?"
 
-Performing Math on Numeric Types
+To total up numeric columns use the SUM() function.
+```
+SELECT SUM(<numeric column) FROM <table>;
+SELECT SUM(<numeric column) AS <alias> FROM <table>
+                                       GROUP BY <another column>
+                                       HAVING <alias> <operator> <value>;
+```
 
-Performing Math
+## Summing Values
 
-Practice Session
+## Calculating Averages
+Averages are great for calculating averages of scores, reviews and sales.
+To get the average value of a numeric column use the AVG() function.
+```
+SELECT AVG(<numeric column>) FROM <table>;
+SELECT AVG(<numeric column>) FROM <table> GROUP BY <other column>;
 
-Review: Aggregate and Numeric Functions
+SELECT AVG(cost) AS average FROM orders;
+SELECT AVG(cost) AS average, user_id FROM orders GROUP BY user_id;
+```
+
+## Averaging Values
+
+## Getting Minimum and Maximum Values
+Finding the minimum and maximum values for particular column can help you get an insight in to what's happening in your data.
+
+To get the maximum value of a numeric column use the MAX() function.
+```
+SELECT MAX(<numeric column>) FROM <table>;
+SELECT MAX(<numeric column>) FROM <table> GROUP BY <other column>;
+```
+To get the minimum value of a numeric column use the MIN() function.
+```
+SELECT MIN(<numeric column>) FROM <table>;
+SELECT MIN(<numeric column>) FROM <table> GROUP BY <other column>;
+
+SELECT AVG(cost) AS average, MAX(cost) AS Maximum, MIN(cost) AS Minimum, user_id
+          FROM orders GROUP BY user_id;
+```
+## Calculating the Minimum and Maximum Values
+
+## Performing Math on Numeric Types
+Operators aren't only for comparing values or concatenating strings. They can be used to perform mathematical operations.
+
+Mathematical Operators:
+* Multiply
+/ Divide
++ Add
+- Subtract
+```
+SELECT <numeric column> <mathematical operator> <numeric value> FROM <table>;
+
+SELECT name, ROUND(price * 1.06, 2) AS "Price in Florida" FROM products;
+```
+
+## Performing Math Challenge
+
+## Practice Session
+Let's practice the new keywords, operators and functions you've learned in this section.
+
+Functions
+
+* Count(<column>)
+* SUM(<column)
+* AVG(<column)
+* MAX(<column>)
+* MIN(<column>)
+
+
+SELECT DISTINCT <column> FROM <table>;
+
+## Review: Aggregate and Numeric Functions
 
 ## Date and Time Functions
-
 Displaying results based on dates and times is crucial for reporting and presenting information that's time sensitive or to perform analysis. We'll take a look at how we can use dates in our reporting and how we can format dates too.
 
+### Differences Between Databases
+A brief discussion on the differences between databases.
 
-Differences Between Databases
+### Creating Up-to-the-Minute Reports
+One of the powerful features in SQL is writing queries based on today's date and time. We'll use a function to get today's date.
+
+SQLite:
+
+* To get the current date use: DATE("now")
+
+* To get the current time use: TIME("now")
+
+* To get the current date time: DATETIME("NOW")
+
+MS SQL:
+
+* To get the current date use: CONVERT(date, GETDATE())
+
+* To get the current time use: CONVERT(time, GETDATE())
+
+* To get the current date time: GETDATE()
+
+MySQL:
+
+* To get the current date use: CURDATE()
+
+* To get the current time use: CURTIME()
+
+* To get the current date time: NOW()
+
+Oracle and PostgreSQL:
+
+* To get the current date use: CURRENT_DATE
+
+* To get the current time use: CURRENT_TIME
+
+*  To get the current date time: CURRENT_TIMESTAMP
+
+```
+SELECT DATE("now");
+SELECT * FROM orders WHERE status = "placed" AND ordered_on = DATE("now");
+```
+### Today's Report
+
+### Calculating Dates
+Calculating dates are great for generating reports and dashboards that are dynamic in nature.
+
+```
+DATE(<time string>)
+
+DATE(<time string>, <modifier>)
+
+SELECT COUNT(*) FROM orders WHERE ordered_on BETWEEN DATE("now", "-7 days") AND DATE("now, "-7 day");
+
+SELECT COUNT(*) FROM orders WHERE ordered_on BETWEEN DATE("now", "-1 days") AND DATE("now, "-7 day");
+
+```
+
+Treehouse uses mode analytics for reporting.
+
+### Formatting Dates For Reporting
+The dates stored in a database often don't suit a human reader. In this video we'll update the dates to be more friendly!
+
+Date Datatypes
+
+date  | time | datetime
+
+```
+-- STRFTIME(<format string>, <time string>, <modifier>)
+
+SELECT *, ordered_on AS UK_date FROM orders;
+
+SELECT *, STRFTIME("%d/%m/%Y",ordered_on) AS UK_date FROM orders;
+
+SELECT title, STRFTIME("%m/%Y", date_released) AS month_year_released FROM movies;
+```
+
+### Formatting Dates and Times Quiz
+
+### Practice Session
+Let's practice all the date functions we've learned about.
 
 
-Creating Up-to-the-Minute Reports
 
-Today's Report
-
-
-Calculating Dates
-
-
-Calculating Dates
-
-
-Formatting Dates For Reporting
-
-
-Formatting Dates and Times
-
-
-Practice Session
-
-
-Review: Reporting with SQL
+### Review: Reporting with SQL
