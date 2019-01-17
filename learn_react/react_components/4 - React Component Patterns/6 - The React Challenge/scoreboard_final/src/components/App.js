@@ -1,5 +1,4 @@
 import React, { Component } from 'react';
-
 import Header from './Header';
 import Player from './Player';
 import AddPlayerForm from './AddPlayerForm';
@@ -33,6 +32,15 @@ class App extends Component {
   // player id counter
   prevPlayerId = 4;
 
+  getHighScore = () => {
+    const scores = this.state.players.map( p => p.score );
+    const highScore = Math.max(...scores);
+    if (highScore) {
+      return highScore;
+    } 
+    return null;
+  }
+
   handleScoreChange = (index, delta) => {
     this.setState( prevState => ({
       score: prevState.players[index].score += delta
@@ -63,23 +71,23 @@ class App extends Component {
   }
 
   render() {
+    const highScore = this.getHighScore();
+    
     return (
       <div className="scoreboard">
-        <Header
-          title="Scoreboard"
-          players={this.state.players}
-        />
-
+        <Header players={this.state.players} />
+  
         {/* Players list */}
         {this.state.players.map( (player, index) =>
-          <Player
+          <Player 
             name={player.name}
             score={player.score}
             id={player.id}
-            key={player.id.toString()}
+            key={player.id.toString()} 
             index={index}
             changeScore={this.handleScoreChange}
             removePlayer={this.handleRemovePlayer}
+            isHighScore={highScore === player.score}         
           />
         )}
 
